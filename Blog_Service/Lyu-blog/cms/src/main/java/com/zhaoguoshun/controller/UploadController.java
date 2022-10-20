@@ -23,7 +23,7 @@ public class UploadController {
         String newFileNamePrefix= UUID.randomUUID().toString();
         String newFileName=newFileNamePrefix+"."+ex;
         ///usr/LyuBlog/uploadL
-        file.transferTo(new File("D:/upload/cms",newFileName));
+        file.transferTo(new File("/opt/springboot/blog/img",newFileName));
         //最后返回的是一个可以访问的全路径
         return Result.ok(RequestUtils.getBasePath(request)+"upload/"+newFileName);
     }

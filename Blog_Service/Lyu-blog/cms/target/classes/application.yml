@@ -21,7 +21,7 @@ logging:
   level:
     com:
       zhaoguoshun:
-        mapper: debug
+        mapper: warn
 
 mybatis:
   type-aliases-package: com.zhaoguoshun.entity

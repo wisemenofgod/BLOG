@@ -13,13 +13,13 @@
                         <ul>
                             <li :v-if="showimg1">
                                 <router-link :to="'/detail/' + xxxx.id" target="_blank"
-                                    ><img src="http://localhost:3410/cms/static/img/table/table_1.jpg" /><span>{{ xxxx.title }}</span></router-link
+                                    ><img src="http://43.139.77.194:3410/cms/static/img/table/table_1.jpg" /><span>{{ xxxx.title }}</span></router-link
                                 >
                             </li>
 
                             <li :v-show="showimg2">
                                 <router-link :to="'/detail/' + yyyy.id" target="_blank"
-                                    ><img src="http://localhost:3410/cms/static/img/table/table_2.jpg" /><span>{{ yyyy.title }}</span></router-link
+                                    ><img src="http://43.139.77.194:3410/cms/static/img/table/table_2.jpg" /><span>{{ yyyy.title }}</span></router-link
                                 >
                             </li>
                         </ul>

@@ -3,7 +3,7 @@
         <h2 class="htitle">点击排行</h2>
         <section class="topnews imgscale">
             <router-link :to="'/detail/' + article.id" target="_blank">
-                <img src="http://localhost:3410/cms/static/img/no1.jpg" /><span>{{ article.title }}</span>
+                <img src="http://43.139.77.194:3410/cms/static/img/no1.jpg" /><span>{{ article.title }}</span>
             </router-link>
         </section>
         <ul>

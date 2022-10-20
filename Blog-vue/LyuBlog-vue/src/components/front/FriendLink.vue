@@ -2,7 +2,7 @@
     <div>
         <div class="ad whitebg imgscale">
             <ul>
-                <a href="/"><img src="http://localhost:3410/cms/static/img/friend.jpg"/></a>
+                <a href="/"><img src="http://43.139.77.194:3410/cms/static/img/friend.jpg"/></a>
             </ul>
         </div>
 

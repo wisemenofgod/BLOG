@@ -22,15 +22,15 @@ export default {
         return {
             sliders: [
                 {
-                    img: 'http://localhost:3410/cms/static/img/swiper/1.jpg',
+                    img: 'http://43.139.77.194:3410/cms/static/img/swiper/1.jpg',
                     url: 'www.baidu.com '
                 },
                 {
-                    img: 'http://localhost:3410/cms/static/img/swiper/2.jpg',
+                    img: 'http://43.139.77.194:3410/cms/static/img/swiper/2.jpg',
                     url: 'www.baidu.com '
                 },
                 {
-                    img: 'http://localhost:3410/cms/static/img/swiper/3.jpg',
+                    img: 'http://43.139.77.194:3410/cms/static/img/swiper/3.jpg',
                     url: 'www.baidu.com '
                 }
             ]
